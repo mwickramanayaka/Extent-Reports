@@ -72,6 +72,14 @@ public class GenerateExtentReport {
 		//creates a toggle for the given test, add all log events under it
 		test = extent.createTest("ebay Search Test", "test to validate search box ");
 
+		//sub nodes---------------
+		test.createNode("Login with valid input");
+		Assert.assertTrue(true);
+		
+		test.createNode("Login with invalid input");
+		Assert.assertTrue(true);
+		//sub nodes--------------
+		
 		test.log(Status.INFO, "Starting test case");
 
 		//maximize the window 
@@ -197,12 +205,12 @@ public class GenerateExtentReport {
 
 	public static String getScreenShot(WebDriver driver, String screenShotName) throws IOException {
 
-		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		String dateName = new SimpleDateFormat("yyyy-MM-dd/hh.mm.ss").format(new Date());
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 
 		//after execution you will see a folder "FaiiedTestsScreenshots" under src folder
-		String destination = System.getProperty("user.dir")+"/Screnshots/" + screenShotName + dateName + ".png";
+		String destination = System.getProperty("user.dir")+"/Screnshots/" + screenShotName + "-" + dateName + ".png";
 		File finalDestination = new File(destination);
 		FileUtils.copyFile(source, finalDestination);
 		return destination;
