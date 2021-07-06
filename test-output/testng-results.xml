@@ -2,57 +2,84 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-06T04:44:41 IST" name="Suite" finished-at="2021-07-06T04:45:01 IST" duration-ms="19633">
+  <suite started-at="2021-07-06T05:57:39 IST" name="Suite" finished-at="2021-07-06T05:58:05 IST" duration-ms="25914">
     <groups>
     </groups>
-    <test started-at="2021-07-06T04:44:41 IST" name="Test" finished-at="2021-07-06T04:45:01 IST" duration-ms="19633">
+    <test started-at="2021-07-06T05:57:39 IST" name="Test" finished-at="2021-07-06T05:58:05 IST" duration-ms="25914">
       <class name="extentReports.GenerateExtentReport">
-        <test-method is-config="true" signature="setup()[pri:0, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:44:38 IST" name="setup" finished-at="2021-07-06T04:44:41 IST" duration-ms="3265" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:57:36 IST" name="setup" finished-at="2021-07-06T05:57:39 IST" duration-ms="3641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test1()[pri:0, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:44:41 IST" name="test1" finished-at="2021-07-06T04:44:47 IST" duration-ms="6315" status="PASS">
+        <test-method signature="test1()[pri:0, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:57:39 IST" name="test1" finished-at="2021-07-06T05:57:46 IST" duration-ms="7042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:44:47 IST" name="getResult" finished-at="2021-07-06T04:44:47 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:57:46 IST" name="getResult" finished-at="2021-07-06T05:57:46 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=SUCCESS method=GenerateExtentReport.test1()[pri:0, instance:extentReports.GenerateExtentReport@67a20f67] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=GenerateExtentReport.test1()[pri:0, instance:extentReports.GenerateExtentReport@a9cd3b1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="test2()[pri:1, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:44:47 IST" name="test2" finished-at="2021-07-06T04:45:01 IST" duration-ms="13201" status="PASS">
+        <test-method signature="test2()[pri:1, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:57:46 IST" name="test2" finished-at="2021-07-06T05:57:59 IST" duration-ms="12423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:45:01 IST" name="getResult" finished-at="2021-07-06T04:45:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:57:59 IST" name="getResult" finished-at="2021-07-06T05:57:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test2 status=SUCCESS method=GenerateExtentReport.test2()[pri:1, instance:extentReports.GenerateExtentReport@67a20f67] output={null}]]]>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=GenerateExtentReport.test2()[pri:1, instance:extentReports.GenerateExtentReport@a9cd3b1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="test3()[pri:2, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:45:01 IST" name="test3" finished-at="2021-07-06T04:45:01 IST" duration-ms="6" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="test3()[pri:2, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:57:59 IST" name="test3" finished-at="2021-07-06T05:58:05 IST" duration-ms="5757" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"invalidXPath"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\MANUL~1.WIC\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7c8f2bf4ed2facadb05342958b62ebc
+*** Element info: {Using=xpath, value=invalidXPath}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at extentReports.GenerateExtentReport.test3(GenerateExtentReport.java:130)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"invalidXPath"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MANUL-W', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\MANUL~1.WIC\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:51799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7c8f2bf4ed2facadb05342958b62ebc
+*** Element info: {Using=xpath, value=invalidXPath}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at extentReports.GenerateExtentReport.test3(GenerateExtentReport.java:161)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,22 +110,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:45:01 IST" name="getResult" finished-at="2021-07-06T04:45:01 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:58:05 IST" name="getResult" finished-at="2021-07-06T05:58:05 IST" duration-ms="592" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test3 status=FAILURE method=GenerateExtentReport.test3()[pri:2, instance:extentReports.GenerateExtentReport@67a20f67] output={null}]]]>
+                <![CDATA[[TestResult name=test3 status=FAILURE method=GenerateExtentReport.test3()[pri:2, instance:extentReports.GenerateExtentReport@a9cd3b1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReports.GenerateExtentReport@67a20f67]" started-at="2021-07-06T04:45:01 IST" name="tearDown" finished-at="2021-07-06T04:45:02 IST" duration-ms="1332" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReports.GenerateExtentReport@a9cd3b1]" started-at="2021-07-06T05:58:05 IST" name="tearDown" finished-at="2021-07-06T05:58:06 IST" duration-ms="1117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
